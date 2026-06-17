@@ -4,4 +4,10 @@ SELECT * FROM CITY WHERE ID = '1661';
 
 -- ==============================================================
 
--- Question 2: - 
+-- Question 2: - Japanese City Attributes
+
+SELECT * FROM CITY WHERE COUNTRYCODE = 'JPN';
+
+-- ==============================================================
+
+-- Question 3: - 
