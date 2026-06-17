@@ -16,4 +16,8 @@ SELECT NAME FROM CITY WHERE COUNTRYCODE = 'JPN';
 
 -- ===============================================================
 
--- Question 7: -
+-- Question 7: - Weather Observation Station 1
+
+SELECT CITY, STATE FROM STATION;
+
+-- =================================================================
