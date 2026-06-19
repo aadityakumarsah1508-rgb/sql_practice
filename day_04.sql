@@ -12,3 +12,22 @@ WHERE CITY LIKE 'A%' OR
 SELECT DISTINCT CITY 
 FROM STATION 
 WHERE CITY REGEXP '^[AEIOU]';
+
+-- =======================================================================================================
+
+-- Question 12: - Weather Observation 7
+
+-- In DB2
+SELECT DISTINCT CITY FROM STATION
+WHERE CITY LIKE '%a' OR 
+      CITY LIKE '%e' OR
+      CITY LIKE '%i' OR
+      CITY LIKE '%o' OR
+      CITY LIKE '%u';
+
+-- In MySql language    
+SELECT DISTINCT CITY
+FROM STATION 
+WHERE CITY REGEXP '[aeiou]$';
+
+-- ========================================================================================================
