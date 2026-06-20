@@ -18,3 +18,6 @@ AND CITY NOT LIKE '%u';
 -- ==================================================================================================
 -- Question 16: - Weather Observation 11 
 
+Select distinct city
+from station 
+where lower(city) NOT REGEXP '^[aeiou].*[aeiou]$';
