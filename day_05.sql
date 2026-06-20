@@ -14,3 +14,7 @@ AND CITY NOT LIKE '%e'
 AND CITY NOT LIKE '%i'
 AND CITY NOT LIKE '%o'
 AND CITY NOT LIKE '%u';
+
+-- ==================================================================================================
+-- Question 16: - Weather Observation 11 
+
