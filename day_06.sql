@@ -21,3 +21,12 @@ SELECT name FROM Employee
 ORDER BY name ASC;
 
 -- ==========================================================================================
+
+-- Question 20:- Employee Salaries
+
+SELECT name FROM Employee
+WHERE salary>2000 
+AND months < 10
+Order by employee_id;
+
+-- =========================================================================================
