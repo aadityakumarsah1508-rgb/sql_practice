@@ -24,3 +24,5 @@ SQL_Practice/
 - [03] Day 03
 - [03] Day 04
 - [03] Day 05
+- [04] Day 06
+- [01] Day 07
