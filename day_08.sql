@@ -1,0 +1,14 @@
+-- Question 22:- Advance Select > THE PADS
+
+SELECT CONCAT(name,'(',LEFT(Occupation, 1),')')  
+FROM OCCUPATIONS
+ORDER BY Name ASC;
+
+SELECT CONCAT('There are a total of ', 
+               COUNT(Occupation), ' ', 
+               LOWER(Occupation),'s.')
+FROM OCCUPATIONS
+GROUP BY Occupation
+ORDER BY COUNT(Occupation) ASC; 
+
+-- =================================================================================================
