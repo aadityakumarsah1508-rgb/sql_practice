@@ -11,3 +11,10 @@ WHERE POPULATION > 100000;
 SELECT SUM(POPULATION)
 FROM CITY 
 WHERE DISTRICT = "California"; 
+
+-- ==========================================================================================
+-- Question 25:- Aggregation > Revising Aggregations - Averages
+
+SELECT AVG(POPULATION)
+FROM CITY 
+WHERE DISTRICT = "California";
