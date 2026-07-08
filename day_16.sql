@@ -1,4 +1,7 @@
--- Question 34: 
+-- Question 34: Aggregation > The Blunder
 
-SELECT CEIL(AVG(Salary) - AVG(REPLACE(Salary, '0', ''))) FROM EMPLOYEES;
+-- SELECT CEIL(AVG(Salary) - AVG(REPLACE(Salary, '0', ''))) FROM EMPLOYEES;
 
+-- SELECT CEIL(AVG(CAST(Salary AS FLOAT)) - AVG(CAST(REPLACE(Salary, '0', '') AS FLOAT))) FROM EMPLOYEES;
+
+SELECT CAST(CEIL(AVG(CAST(Salary AS FLOAT)) - AVG(CAST(REPLACE(Salary, '0', '') AS FLOAT))) AS INTEGER) FROM EMPLOYEES;
